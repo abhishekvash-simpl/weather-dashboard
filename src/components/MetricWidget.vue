@@ -2,7 +2,7 @@
 defineProps<{
     title: string;
     value: string;
-    color?: "cyan" | "violet" | "pink" | "blue";
+    color: "cyan" | "violet" | "pink" | "blue";
 }>();
 </script>
 

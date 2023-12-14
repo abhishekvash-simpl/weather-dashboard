@@ -31,7 +31,7 @@ const uvi = computed(() => `${store.current.uvi.toFixed(2)} %`);
         <div class="widget-grid">
             <MetricWidget title="Temp" :value="exactTemperature" color="cyan" />
             <MetricWidget title="Feels Like" :value="feelsLikeTemperature" color="violet" />
-            <MetricWidget title="Humanity" :value="humidity" color="pink" />
+            <MetricWidget title="Humidity" :value="humidity" color="pink" />
             <MetricWidget title="UVI" :value="uvi" color="blue" />
         </div>
         <div class="graph">
